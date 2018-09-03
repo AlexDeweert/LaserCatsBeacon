@@ -1,0 +1,31 @@
+{
+  "name": "lasercatsbeacon",
+  "version": "1.0.0",
+  "description": "A bluetooth low energy beacon which controls a laser turret",
+  "main": "lasercats.beacon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexDeweert/LaserCatsBeacon.git"
+  },
+  "keywords": [
+    "ble",
+    "beacon",
+    "ibeacon",
+    "rpi",
+    "raspberrypi",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Alex L. Deweert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexDeweert/LaserCatsBeacon/issues"
+  },
+  "homepage": "https://github.com/AlexDeweert/LaserCatsBeacon#readme",
+  "dependencies": {
+    "bleno": "^0.5.0"
+  }
+}
