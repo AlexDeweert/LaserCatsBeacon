@@ -1,8 +1,8 @@
-var bleno = require('../..');
+var bleno = require('bleno');
 
 var BlenoPrimaryService = bleno.PrimaryService;
 
-var EchoCharacteristic = require('./characteristic');
+var EchoCharacteristic = require('./lasercats.char.command');
 
 console.log('bleno - echo');
 
